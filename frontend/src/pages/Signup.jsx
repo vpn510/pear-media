@@ -62,7 +62,7 @@ function Signup() {
                         type="text"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
-                        placeholder="John Doe"
+                        placeholder="Enter your name"
                         className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-pear-500 focus:ring-1 focus:ring-pear-500"
                         required
                      />
